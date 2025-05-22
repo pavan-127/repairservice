@@ -1,0 +1,238 @@
+/* Modal Background */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 50px;
+  
+}
+
+/* Modal Box */
+.popup-container {
+  background-color: #fff;
+  width: 85%;
+  max-width: 1000px;
+  border-radius: 10px;
+  padding: 30px 40px;
+  position: relative;
+
+}
+
+/* Header */
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.popup-logo {
+  height: 40px;
+   color: black;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+
+}
+
+/* Search Bar */
+.search-box-wrapper {
+  margin-top: 30px;
+  position: relative;
+
+}
+
+.city-search {
+  width: 100%;
+  padding: 16px 60px 16px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #f7f7f7;
+  font-size: 16px;
+  color: #555;
+}
+
+.search-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #888;
+}
+
+/* Popular Cities */
+.city-section {
+  margin-top: 40px;
+}
+
+.city-section h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.city-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.city-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  cursor: pointer;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.city-item:hover {
+  transform: scale(1.05);
+}
+
+.city-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.active-city {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+/* View All */
+.view-all {
+  margin-top: 30px;
+  text-align: center;
+  color: #47d7ac;
+  font-weight: 600;
+  cursor: pointer;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.popup-container {
+  background: #fff;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 12px;
+  
+  position: relative;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+.detected-location {
+  margin-bottom: 10px;  
+
+}
+
+.detected-location-btn {
+  width: 100%;
+  padding: 10px;
+  background: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  color: black;
+  
+}
+
+.search-box-wrapper {
+  position: relative;
+  margin: 15px 0;
+}
+
+.city-search {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  
+
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  
+}
+
+.city-section h3 {
+  margin: 10px 0;
+  
+}
+
+.city-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+
+.city-item {
+  flex: 1 1 30%;
+  background: #f1f1f1;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+    color: black;
+
+}
+
+.city-icon {
+  font-size: 18px;
+}
+
+.active-city {
+  background: #f2f2f2;
+}
+
+.view-all {
+  text-align: center;
+  margin-top: 15px;
+  color: #007bff;
+  cursor: pointer;
+}
